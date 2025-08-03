@@ -152,7 +152,7 @@ const Home = () => {
           </section>
         }
 
-        <div>
+        <div className="product-grid">
           {
             products.map((product) => <div key={product.id}>
               <h2 key={product.id}>{product.title}</h2>
